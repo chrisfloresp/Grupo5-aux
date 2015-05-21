@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MENÚ EXPRESS</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css">
+        <link href="css/foundation.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+                <nav class="menuPrin">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">ACERCA DE</a></li>
+                        <li class="logo"><a href="#"><img src="img/logo.png"></a></li>
+                        <li><a href="#">SERVICIO</a></a></li>
+                        <li><a href="#">CONTACTENOS</a></a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="container">
+            <div class="main">
+                <div class="col1">
+                    <form class="busqueda">
+                        <label for="">DEPARTAMENTO</label>
+                        <input type="text" name="" value="Lima"/>
+                        <label for="">DISTRITO</label>
+                        <select>
+                            <option>Selecciona distrito</option>
+                            <option>San Isidro</option>
+                            <option>La Victoria</option>
+                        </select>
+                        <input type="button" value="Buscar" name=""/>
+                    </form>
+                    <form class="registro">
+                        <h3>INICIA SESIÓN</h3>
+                        <div class="contReg">
+                        <label for="">USUARIO</label>
+                        <input type="text" name="" value=""/>
+                        <label for="">CONTRASEÑA</label>
+                        <input type="text" name="" value=""/>
+                        <input type="button" value="Ingresar" name=""/>
+                        <input type="button" value="Registrate" name=""/>
+                        </div>
+                    </form>
+                </div>
+                <div class="col2">
+                    
+                      <table cellspacing = "15"  >
+                         <tr >
+                       <th style="background-color: rgb(139, 160, 231);">Restaurant </th>
+                       <th style="background-color: rgb(78, 107, 219);">Registro de Menu</th>
+                       <th style="background-color: rgb(78, 107, 219);">Pedidos del dia</th>
+                        </tr>
+                        </table>
+                        
+                       <table cellspacing = "20"  >
+                         <tr >
+                         <td> <label for="">RUC :</label></td>     
+                         <td>  <input type="text" name="" value=""/> </td> 
+                         </tr>
+                         <tr >
+                         <td> <label for="">Razon Social :</label></td>     
+                         <td>  <input type="text" name="" value=""/> </td> 
+                         </tr>
+                        </table>
+                        
+                        <table border="1" >
+                         <th style="background-color: rgb(78, 107, 219);">Distrito </th>
+                         <th style="background-color: rgb(78, 107, 219);">Direccion</th>
+                          <th style="background-color: rgb(78, 107, 219);">Telefono</th>
+                          <th colspan="2" ; style="background-color: rgb(78, 107, 219); "></th>
+                         <tr>
+                            <td style="background-color :rgb(192, 191, 191"></td>
+                            <td style="background-color :rgb(192, 191, 191"></td>
+                            <td style="background-color :rgb(192, 191, 191"></td>
+                            <td style="background-color :rgb(192, 191, 191">Editar</td>
+                            <td style="background-color :rgb(192, 191, 191">Eliminar</td>
+                        </tr>      
+                          
+                        </table>
+                        
+                        <table cellspacing = "15">
+                        <tr>
+                         <td> <label for="">Nombre</label></td>     
+                         <td>  <input type="text" name="" value=""/> </td> 
+                        </tr>
+                        <tr>
+                         <td> <label for="">Correo</label></td>     
+                         <td>  <input type="text" name="" value=""/> </td> 
+                        </tr>
+                        <tr>
+                         <td> <label for="">Direccion</label></td>     
+                         <td>  <input type="text" name="" value=""/> </td> 
+                        </tr>
+                        <tr>
+                         <td> <label for="">Distrito</label></td>     
+                         <td>
+                             <select>
+                            <option>Selecciona distrito</option>
+                        </select>
+                         </td>     
+                        </tr>
+                        </table>    
+                        
+                        
+                        <input type="button" value="GRABAR" name=""/>
+                        
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/vendor/jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#comprarButton').click(function(){
+                    alert("Si te encanto mi producto, comprame pe varon!!");
+                })
+            });
+        </script>
+    </body>
+</html>
